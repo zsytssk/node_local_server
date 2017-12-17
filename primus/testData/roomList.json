@@ -1,0 +1,22 @@
+{
+  "normal": {
+    "type": "normal",
+    "list": [{
+        "type": "1",
+        "bottom": "100",
+        "min": "100",
+        "max": "200",
+        "stats": "1",
+        "pre": "0"
+      },
+      {
+        "type": "2",
+        "bottom": "200",
+        "min": "100",
+        "max": "500",
+        "stats": "1",
+        "pre": "0"
+      }
+    ]
+  }
+}

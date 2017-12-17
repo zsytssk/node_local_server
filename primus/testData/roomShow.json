@@ -1,0 +1,140 @@
+{
+  "userId": "2",
+  "users": [{
+      "roomId": "1",
+      "tableId": "1111111",
+      "gameStatus": "1",
+      "avatar": "images/component/avatar1.png",
+      "nickname": "test1",
+      "seatId": "1",
+      "sitTime": "2017-03-07 17:23:38:462",
+      "userId": "2",
+      "gold": 123123,
+      "diamond": 123123,
+      "batteryLevel": "1",
+      "curBatteryLevel": "20",
+      "userLevel": 123123,
+      "vipLevel": "1",
+      "score": 123123,
+      "remainBulletNum": 123123
+    },
+    {
+      "roomId": "1",
+      "tableId": "1111111",
+      "gameStatus": "1",
+      "avatar": "images/component/avatar2.png",
+      "nickname": "test1",
+      "seatId": "2",
+      "sitTime": "2017-03-07 17:23:38:462",
+      "userId": "3",
+      "gold": 123123,
+      "needEmitCmd": true,
+      "batteryLevel": "1",
+      "curBatteryLevel": "40",
+      "diamond": 123123,
+      "vipLevel": "1",
+      "score": 123123,
+      "remainBulletNum": 123123
+    },
+    {
+      "roomId": "1",
+      "tableId": "1111111",
+      "gameStatus": "1",
+      "avatar": "images/component/avatar3.png",
+      "nickname": "test1",
+      "seatId": "3",
+      "sitTime": "2017-03-07 17:23:38:462",
+      "userId": "1",
+      "gold": 123123,
+      "diamond": 123123,
+      "batteryLevel": "1",
+      "curBatteryLevel": "40",
+      "userLevel": 123123,
+      "score": 123123,
+      "remainBulletNum": 123123,
+      "vipLevel": "0"
+    }
+  ],
+  "tableInfo": {
+    "status": "1",
+    "createTime": "2017-03-07 17:23:38:454",
+    "roomId": "1",
+    "roomType": "1",
+    "curFishNo": "108",
+    "isMatchRoom": false
+  },
+  "fish": [{
+    "typeId": "2",
+    "fishId": "101",
+    "startTime": "1488878618530",
+    "totalTime": 30,
+    "usedTime": 0,
+    "from": "left",
+    "displaceType": "path",
+    "pathId": "1",
+    "pathNo": "2"
+  }, {
+    "typeId": "2",
+    "fishId": "101",
+    "startTime": "1488878618530",
+    "from": "left",
+    "totalTime": 100,
+    "usedTime": 0,
+    "displaceType": "path",
+    "pathId": "1",
+    "pathNo": "5"
+  }],
+  "skills": [],
+  "userItems": {
+    "2001": {
+      "count": 50,
+      "coolTime": 10
+    },
+    "2002": {
+      "count": 50,
+      "coolTime": 10,
+      "perPrice": 3
+    },
+    "2003": {
+      "count": 20,
+      "coolTime": 10,
+      "perPrice": 3
+    },
+    "2004": {
+      "count": 0,
+      "coolTime": 10,
+      "perPrice": 3
+    },
+    "2005": {
+      "count": 0,
+      "coolTime": 10,
+      "perPrice": 3
+    },
+    "2006": {
+      "count": 10,
+      "coolTime": 10,
+      "perPrice": 3
+    },
+    "4001": {
+      "count": 0,
+      "coolTime": 10,
+      "perPrice": 3
+    },
+    "4002": {
+      "count": 0,
+      "coolTime": 10
+    },
+    "4003": {
+      "count": 0,
+      "coolTime": 10
+    },
+    "4004": {
+      "count": 0,
+      "coolTime": 10
+    },
+    "4005": {
+      "count": 0,
+      "coolTime": 10
+    }
+  }
+}

@@ -1,0 +1,30 @@
+```javascript
+let crypto = require('crypto');
+let public_key = `-----BEGIN PUBLIC KEY-----
+MFswDQYJKoZIhvcNAQEBBQADSgAwRwJAbIPKuBsvHf65r4KLVZ+C6GrLsV2Gn9T9
+fh2wP1lrFUpFS/y/KTLE2K4zZq0vQePODdnMzPq8qeWyN44qk6PLZwIDAQAB
+-----END PUBLIC KEY-----`;
+
+let private_key = `-----BEGIN RSA PRIVATE KEY-----
+MIIBOQIBAAJAbIPKuBsvHf65r4KLVZ+C6GrLsV2Gn9T9fh2wP1lrFUpFS/y/KTLE
+2K4zZq0vQePODdnMzPq8qeWyN44qk6PLZwIDAQABAkA7DT00ExcA662ApTnNzpAe
+in9udcbdE7se9mkDEFYFrz5h0/tu6Oo4eau04HIZRGPokBMSJZC37vQ/OficIpcB
+AiEAvGtSkvDYI70rj9oiLBXN02xIzGYEUyqWbjHFI9AuVk8CIQCTb6K6J1M2ob3f
+DTPKmK/l3X1HXQYC1vE7MTYT0AMLaQIgVfW0j1sXkH5+QDupOWmdJGaTc8TbFkIo
+rQ9BvEv+x9sCIGOuJXIAZnVYUzv7/BkstDgQUMQv84F1+zDO68XnbDeJAiEAt5Dp
+K+k8pGHi3yJyu46T2fg7cWCDjeXS5l/hvhurywg=
+-----END RSA PRIVATE KEY-----`;
+
+// 失败
+let test_str = 'hello world';
+let test_beffer = Buffer.from(test_str, 'utf8');
+let test_encrypt = crypto.publicEncrypt({
+  key: public_key
+}, test_beffer);
+console.log(test_encrypt);
+let test_decrypt = crypto.publicEncrypt({
+  key: public_key
+}, test_encrypt);
+console.log(test_decrypt.toString('utf8'));
+
+```
